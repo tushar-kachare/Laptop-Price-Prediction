@@ -29,7 +29,7 @@ weight = st.number_input("Enter Weight of Laptop")
 touchscreen = st.selectbox("Touchscreen",['No','Yes'])
 
 #Resolution
-Resolution = st.selectbox("Selecte Specified Resolution",['2560x1600',
+Resolution = st.selectbox("Select Specified Resolution",['2560x1600',
                     '1440x900','1920x1080','2880x1800','1366x768','2304x1440','3200x1800',
                     '1920x1200','2256x1504','3840x2160','2160x1440','2560x1440','1600x900',
                     '2736x1824','2400x1600'])

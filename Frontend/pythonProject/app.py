@@ -4,9 +4,9 @@ import sklearn
 import pandas as pd
 import pickle
 st.title("Laptop Price Prediction")
-with open('data.pkl', 'rb') as f:
+with open('Frontend/pythonProject/data.pkl', 'rb') as f:
     data = pickle.load(f)
-with open('pipe.pkl','rb') as f:
+with open('Frontend/pythonProject/pipe.pkl','rb') as f:
     model = pickle.load(f)
 
 #Select Company Name
